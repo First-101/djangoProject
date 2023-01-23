@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="mt-4 p-5 bg-White text-White rounded">
+      <h1>สิ่งที่สนใจ</h1>
+      <div class="row">
+          <div class="col-lg-4">
+              <img src="{% static 'image/4.png' %}"
+                   width="500px" height="500px"><br>
+          </div>
+          <div class="col-lg-9 text-light"><h3>
+              1.ชอบเล่นเกม<br>
+              2.ชอบดูหนัง<br>
+              3.ชอบอ่านหนังสือต่าง<br>
+              4.ชอบทางด่านดาราศาสตร์<br>
+              </h3>
+          </div>
+      </div>
+    </div>
+    <br>
+
+    <br>
+    <br>
+{% endblock %}

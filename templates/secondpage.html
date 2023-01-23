@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div bgcololr="#eee8aa">
+    <h1 class="text-center text-primary"> Welcome to Second Page </h1>
+    <h2 class="text-center text-danger"> Today is: Monday</h2>
+    <hr class="text-danger" width="50%" align="center">
+    <p class="bg-white text-danger text-center border-1" >
+        Django (อ่านว่าจังโก้ หรือแจงโก้ โดยไม่ออกเสียงตัว D) <br>
+        เป็น framework ที่ใช้ในการสร้าง Web Application ในฝั่งของ Back End <br>
+        ที่พัฒนาด้วยภาษา Python โดยในตัว framework จะมีส่วนประกอบทุกอย่างที่จำเป็น <br>
+        ตั้งแต่การเชื่อมต่อฐานข้อมูล ไปจนถึงการ render ข้อมูลออกมาให้ฝั่ง Front End  <br>
+        แสดงผลข้อมูลเหล่านั้นได้ ซึ่ง framework ในรูปแบบนี้ในภาษาอื่นๆ เช่น Ruby on rails <br>
+        สำหรับภาษา Ruby, Play Framework สำหรับภาษา Java หรือ Scala, <br>
+        Groovy on Grails สำหรับภาษา Groovy, Laravel สำหรัาษา PHP, <br>
+        หรือ Express สำหรับภาษา Javascript ของ Node.js เป็นต้น <br>
+        ซึ่งข้อมูลที่อ้างอิงมาจาก www.hotframeworks.com จะเห็นว่า Django<br>
+        มีการใช้งานอย่างแพร่หลายมาก<br>
+    </p> <br><br> <br>
+    <table class="table table-warning table-striped table-hover table-bordered " >
+        <tr bgcolor="#a52a2a">
+            <th width="20%">รหัสวิชา</th>
+            <th width="50%">ชื่อวิชา</th>
+            <th width="15%">หน่วยกิต</th>
+            <th width="15%">เกรด</th>
+        </tr>
+        <tr>
+            <td align="center">32-406-201-301</td>
+            <td>การเขียนโปรแกรมประยุกต์เพื่องานธุรกิจดิจิทัล</td>
+            <td align="center">3</td>
+            <td align="center">D</td>
+        </tr>
+        <tr>
+            <td align="center">32-406-201-302</td>
+            <td>ฝึกปฏิบัติการเขียนโปรแกรมประยุกต์เพื่องานธุรกิจดิจิทัล</td>
+            <td align="center">1</td>
+            <td align="center">B</td>
+        </tr>
+        <tr>
+            <td align="center">32-406-203-201</td>
+            <td>ระบบจัดการฐานข้อมูล</td>
+            <td align="center">3</td>
+            <td align="center">A</td>
+        </tr>
+        <tr>
+            <td align="center">32-406-203-202</td>
+            <td>ฝึกปฏิบัติระบบจัดการฐานข้อมูล</td>
+            <td align="center">1</td>
+            <td align="center">B+</td>
+        </tr>
+        <tr>
+            <td align="center">32-406-101-101</td>
+            <td>การเขียนโปรแกรมคอมพิวเตอร์</td>
+            <td align="center">3</td>
+            <td align="center">A</td>
+        </tr>
+        <tr>
+            <td align="center">32-406-101-102</td>
+            <td>ฝึกปฏิบัติการเขียนโปรแกรมคอมพิวเตอร์</td>
+            <td align="center">1</td>
+            <td align="center">A</td>
+        </tr>
+    </table>
+    <br><br>
+    <a href="{% url 'firstweb' %}" class="btn btn-danger">Go to First Web</a>
+    <a href="{% url 'thirdpage' %}" class="btn btn-success">Go to Third Page </a> <br>
+
+    <br><br><br><br>
+
+</div>
+{% endblock %}

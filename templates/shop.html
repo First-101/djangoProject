@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="mt-4 p-5 bg-White text-White rounded">
+      <h1><b>SHOP</b></h1>
+            <div class="container mt-3 ">
+              <table class="table table-bordered text-light">
+                <thead>
+                  <tr>
+                      <th>ประวิติ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>ชื่อ: นายชนาธิป เกตโล</td>
+                  </tr>
+                  <tr>
+                    <td>ชื่อเล่น: เฟิร์ส</td>
+                  </tr>
+                  <tr>
+                    <td>วันเดือนปีเกิด: 15 ก.พ พ.ศ.2545</td>
+                  </tr>
+                  <tr>
+                    <td>อายุ:21ปี</td>
+                  </tr>
+                <tr>
+                    <td>ที่อยู่:70 หมู่ 11 บ้านหัวงัว ตำบลจังหาร อำเภอจังหาร จังหวัดร้อยเอ็ด รหัสไปรษณีย์ 45000</td>
+                  </tr>
+                <tr>
+                    <td>กำลังศึกษาอยู่ที่: 150 ถนนศรีจันทร์ ตำบลในเมือง อำเภอเมืองขอนแก่น จังหวัดขอนแก่น รหัสไปรษณีย์ 40000</td>
+                  </tr>
+                <tr>
+                    <td>เบอร์โทรศัพท์: 092-456-1464</td>
+                  </tr>
+                <tr>
+                    <td>Gmail: tl781260@gmail.com</td>
+                  </tr>
+                <tr>
+                    <td>FaceBook: Chanathip Ketlo</td>
+                  </tr>
+                <tr>
+                    <td>ธุรกิจ:เป็นธุรกิจส่วนตัว</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+  <h1>รูปสินค้าที่จัดจำหน่าย</h1>
+  <table class="table table-bordered text-light">
+    <thead>
+      <tr>
+        <th style="width: 20%"><h4>รูปสินค้า</h4></th>
+        <th style="width: 50%"><h4>ชื่อสินค้า</h4></th>
+          <th style="width: 40%"><h4>ราคา</h4></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <img src="{% static 'image/11.jpg' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>ร้องเท้าผ้าใบทรงผู้หญิง</h3></td>
+          <td><h3>ราคา 950 บาท </h3></td>
+      </tr>
+      <tr>
+        <td> <img src="{% static 'image/12.jpg' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>รองเท้าผ้าใบยอดนิยมรองเท้าแฟชั่นรองเท้าผ้าใบวิ่งกีฬา </h3></td>
+          <td><h3>ราคา 1,111 บาท</h3></td>
+      </tr>
+      <tr>
+        <td> <img src="{% static 'image/13.jpg' %}"
+                   width="200px" height="200px"></td>
+          <td><h3>รองเท้าผ้าใบคอนเวิร์สแฟชั่น </h3></td>
+          <td><h3>ราคา 1,500 บาท</h3></td>
+      </tr>
+    <tr>
+        <td> <img src="{% static 'image/14.png' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>รองเท้าผ้าใบผู้หญิงยอดนิยมสำหรับแฟชั่นใส่วิ่งสีขาว</h3></td>
+        <td><h3>ราคา 1,200 บาท</h3></td>
+      </tr>
+    <tr>
+        <td> <img src="{% static 'image/15.jpg' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>รองเท้าผ้าใบผู้ชายในวิ่งหรือเทียวใด้ สีเเดงดำ</h3></td>
+        <td><h3>ราคา 550 บาท</h3></td>
+      </tr>
+    <tr>
+        <td> <img src="{% static 'image/16.jpg' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>รองเท้าผ้าใบผู้ชายหลายหมารุก</h3></td>
+        <td><h3>ราคา 978 บาท</h3></td>
+      </tr>
+    <tr>
+        <td> <img src="{% static 'image/17.jpg' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>รองเท้าผ้าใบผู้ชายใส่เทียวที่ต่างๆ สีเขียวตัดเเดง</h3></td>
+        <td><h3>ราคา 990 บาท</h3></td>
+      </tr>
+    <tr>
+        <td> <img src="{% static 'image/18.jpg' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>รองเท้าผ้าใบใส่วิ่งออกกำลังการสีดำเท่า</h3></td>
+        <td><h3>ราคา 1,050 บาท</h3></td>
+      </tr>
+    <tr>
+        <td> <img src="{% static 'image/19.jpg' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>รองเท้าผ้าใบใส่ออกกำลังกาย สีดำเเดง</h3></td>
+        <td><h3>ราคา 650 บาท</h3></td>
+      </tr>
+    <tr>
+        <td> <img src="{% static 'image/20.jpg' %}"
+                   width="200px" height="200px"></td>
+        <td><h3>รองเท้าผ้าใบใส่ใด้ทุกเพศสีเเดงหลายขาว</h3></td>
+        <td><h3>ราคา 850 บาท</h3></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+    <br>
+    <br>
+{% endblock %}

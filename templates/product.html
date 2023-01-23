@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="text-center">
+    <div class="container mt-3 text-c ">
+        <h2>สินค้าที่ขาย</h2>
+        <img src="{% static 'image/6.jpg' %}" class="mx-auto d-block" alt="Paris" width="250" height="250">
+
+        <br>
+        <h3><p>ร้องเท้าผ้าใบสีขาวขนาด 35-45</p></h3>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            สั่งชื้อ
+        </button>
+        <div class="modal" id="myModal" data-bs-backdrop="static ">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">เลือกสินค้า</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        สินค้าหมดนะครับยังไม่พอจำหน่ายในการสั่งซ์้อ กรุณาติดต่อ Admin เพื่อสั่งจองล่วงหน้า
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Order</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <img src="{% static 'image/7.jpg' %}" class="mx-auto d-block" alt="Paris" width="250" height="250">
+    </div>
+
+    <br>
+    <h3><p>ร้องเท้าผ้าใบสีขาวตัดดำขนาด 35-45</p></h3>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        สั่งชื้อ
+    </button>
+    <div class="modal" id="myModal" data-bs-backdrop="static ">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">ชื้อสินค้า</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    สินค้าหมดนะครับยังไม่พอจำหน่ายในการสั่งซ์้อ กรุณาติดต่อ Admin เพื่อสั่งจองล่วงหน้า
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Order</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <img src="{% static 'image/8.jpg' %}" class="mx-auto d-block" alt="Paris" width="250" height="250">
+    </div>
+
+    <br>
+    <h3><p>ร้องเท้าผ้าใบสีเเดง 35-45</p></h3>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        สั่งชื้อ
+    </button>
+    <div class="modal" id="myModal" data-bs-backdrop="static ">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">ชื้อสินค้า</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    สินค้าหมดนะครับยังไม่พอจำหน่ายในการสั่งซ์้อ กรุณาติดต่อ Admin เพื่อสั่งจองล่วงหน้า
+                </div>
+                <!-- Modal footer -->
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Order</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    <br><br>
+
+
+{% endblock %}
