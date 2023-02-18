@@ -13,4 +13,6 @@ urlpatterns = [
     path('educationalRecord', views.educationalRecord, name='educationalRecord'),
     path('product', views.product, name='product'),
     path('shop', views.shop, name='shop'),
+    path('listProduct', views.listProduct, name='listProduct'),
+    path('inputProduct', views.inputProduct, name='inputProduct'),
 ]
